@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style type="text/css">
+
+h1{
+
+text-align: center;
+
+}
+form {
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+form div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+</style>
+</head>
+<body>
+
+<h1>REGISTRATION PAGE</h1>
+
+	<form action="register-user" method="post">
+
+		<div>
+			<label>NAME : </label> <input type="text" name="user_name">
+		</div>
+
+		<div>
+			<label>EMAIL :</label> <input type="text" name="user_email">
+		</div>
+		<div>
+			<label>DESIGNATION :</label> <input type="text"
+				name="user_designation">
+		</div>
+		<div>
+			<label>ROLE :</label> <input type="text" name="user_role">
+		</div>
+		<div>
+			<label>SALARY :</label> <input type="text" name="user_salary">
+		</div>
+		<div>
+			<label>PASSWORD :</label> <input type="password" name="user_password">
+		</div>
+
+		<div>
+			<input type="submit" value="REGISTER">
+		</div>
+
+
+	</form>
+
+</body>
+</html>
