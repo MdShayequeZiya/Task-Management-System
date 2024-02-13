@@ -20,40 +20,43 @@ This project is a basic task management system with features for user registrati
 /task-management-system
 │
 ├── src
-│ ├── main
-│ │ ├── java
-│ │ │ ├── com.ff
-│ │ │ │ ├── controller
-│ │ │ │ │ ├── RegisterController.java
-│ │ │ │ │ ├── LoginController.java
-│ │ │ │ │ ├── ManagerController.java
-│ │ │ │ │ ├── EmployeeController.java
-│ │ │ │ ├── service
-│ │ │ │ │ ├── UserService.java
-│ │ │ │ │ ├── TaskService.java
-│ │ │ │ │ ├── implementation
-│ │ │ │ │ │ ├── UserServiceImpl.java
-│ │ │ │ │ │ ├── TaskServiceImpl.java
-│ │ │ │ ├── dao
-│ │ │ │ │ ├── UserDao.java
-│ │ │ │ │ ├── TaskDao.java
-│ │ │ │ ├── entity
-│ │ │ │ │ ├── User.java
-│ │ │ │ │ ├── Task.java
-│ │ │ ├── resources
-│ │ │ │ ├── META-INF
-│ │ │ │ │ ├── persistence.xml
-│ │ ├── webapp
-│ │ │ ├── WEB-INF
-│ │ │ │ ├── views
-│ │ │ │ │ ├── register.jsp
-│ │ │ │ │ ├── login.jsp
-│ │ │ │ │ ├── managerDashboard.jsp
-│ │ │ │ │ ├── employeeDashboard.jsp
+│   ├── main
+│   │   ├── java
+│   │   │   └── your
+│   │   │       └── package
+│   │   │           ├── controller
+│   │   │           │   ├── RegisterController.java
+│   │   │           │   ├── LoginController.java
+│   │   │           │   ├── ManagerController.java
+│   │   │           │   └── EmployeeController.java
+│   │   │           ├── service
+│   │   │           │   ├── UserService.java
+│   │   │           │   └── TaskService.java
+│   │   │           ├── service
+│   │   │           │   ├── implementation
+│   │   │           │   │   ├── UserServiceImpl.java
+│   │   │           │   │   └── TaskServiceImpl.java
+│   │   │           ├── dao
+│   │   │           │   ├── UserDao.java
+│   │   │           │   └── TaskDao.java
+│   │   │           ├── entity
+│   │   │           │   ├── User.java
+│   │   │           │   └── Task.java
+│   │   ├── resources
+│   │   │   └── META-INF
+│   │   │       └── persistence.xml
+│   │   └── webapp
+│   │       ├── WEB-INF
+│   │       │   └── views
+│   │       │       ├── register.jsp
+│   │       │       ├── login.jsp
+│   │       │       ├── managerDashboard.jsp
+│   │       │       └── employeeDashboard.jsp
+│   │       └── resources
+│   │           └── web.xml
 ├── WebContent
-│ ├── index.jsp
-│ ├── web.xml
-│ ├── README.md
+    └── README.md
+
 
 
 ## How to Use
